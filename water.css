@@ -69,4 +69,8 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
+ul.a {
+  list-style-type: circle;
+}
+
 
