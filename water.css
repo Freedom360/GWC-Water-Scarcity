@@ -1,6 +1,4 @@
-body{
-  background-image:url("images.png");
-}
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -97,7 +95,7 @@ li a:hover {
 }
 ul.c {
   list-style-type: circle;
-  background-color: white;
+  background-color:white;
 }
 
 
