@@ -99,8 +99,3 @@ ul.c {
   background-color:white;
 }
 
-<style>
-p.serif {
-  font-family: "Times New Roman", Times, serif;
-  <h1>CSS font-family</h1>
-<p class="serif">This is a paragraph, shown in the Times New Roman font.</p>
