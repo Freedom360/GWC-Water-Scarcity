@@ -1,5 +1,11 @@
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
+<img src="raindrops.jpg" alt="Raindrops">
 * {box-sizing: border-box;}
+
 body {font-family: Verdana, sans-serif; background-image:url("raindrops.jpg");}
 
 .mySlides {display: none;}
