@@ -1,8 +1,6 @@
 
-* {box-sizing: border-box;
-
-body {font-family: Verdana, sans-serif; background-image:url("raindrops.jpg");
-  }
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif; background-image:url("raindrops.jpg"); }
 
 .mySlides {display: none;}
 img {vertical-align: middle;}
