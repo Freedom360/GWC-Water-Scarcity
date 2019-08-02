@@ -114,7 +114,7 @@ ul.c {
 }
 
 .hero::before {
-background-image: url("raindrops.jpg");
+background-image: url("white.png");
 background-size: cover;
 content: "";
 display: block;
