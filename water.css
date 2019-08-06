@@ -64,7 +64,7 @@ img {vertical-align: middle;}
 
 
 ul.a{font-family: 'Dosis', sans-serif;
-  list-style-type: none;
+  list-style-type: circle;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -73,6 +73,7 @@ ul.a{font-family: 'Dosis', sans-serif;
 
 li.b {font-family: 'Dosis', sans-serif;
   float: left;
+  list-style-type: circle;
 }
 
 li a {
@@ -81,6 +82,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  list-style-type: circle;
 }
 
 li a:hover {
