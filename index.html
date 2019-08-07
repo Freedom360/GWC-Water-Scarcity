@@ -78,27 +78,34 @@ text-shadow: 2px 2px 8px #3CB371;
 	<title>Water The World</title>
 	<link rel="stylesheet" href="water.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">	
-	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <body class="hero">
 <IMG SRC="logo_final.png" ALT="some text" WIDTH=356 HEIGHT=200 class="center">
 	<h1> <center> Water The World </h1> </center>
+  <div class="sticky">
 <ul class="a">
   <div class="a"><li class="b"><a class="active" href="#Home">Home</a></li>
 	<li class="b"><a href="#Fast Facts">Fast Facts</a></li>
 	<li class="b"><a href="#Water Scarcity Around The World">Water Scarcity Around The World</a></li>
-	 <li class="b"><a href="#Game">Game</a></li></div>
-	<li class="b"><a href="#How You Can Help">How You Can Help</a></li></div>
+	 <li class="b"><a href="#Game">Game</a></li>
+	<li class="b"><a href="#How You Can Help">How You Can Help</a></li>
 	<li class="b"><a href="#Tips to Prevent Water Scarcity">Tips to Prevent Water Scarcity</a></li>
 	<li class="b"><a href="#About Us">About Us</a></li>
 	<li class="b"><a href="#Sources">Sources</a></li>
 </ul>
+<<<<<<< HEAD
+</div>
+</div>
+
+=======
 <br>
+>>>>>>> 638ddc1f183a0775d8be54c6a38833ebca60fbd4
 	<a name="Fast Facts"></a>
 <h1 class = "d"> <center> Fast Facts</h1> </center>
 <h2> <center> Water scarcity is the lack of sufficient water or not getting access to safe water supplies. Because of climate change and population growth, water has become very important.</h2> </center>
 
-	
+
 <br>
 <!--slideshow-->
 
@@ -128,16 +135,16 @@ text-shadow: 2px 2px 8px #3CB371;
   <img src="water5.jpg" width="700" height="400" class="center">
   <div class="text"></div>
 </div>
-	
+
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
   <span class="dot"></span>
   <span class="dot"></span>
-  <span class="dot"></span> 	
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
@@ -149,20 +156,29 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 </script>
 
 <ul class="c">
+<<<<<<< HEAD
+<ul style="list-style-type:circle;">
+	<li>Over 2 billion people live in countries experiencing high water stress </li>
+  	<li>700 million people worldwide could be displaced by intense water scarcity by 2030</li>
+  	<li>By investing in clean water alone, young children around the world can gain more than 413 million days of health</li>
+  	<li>Every 2 minutes a child dies from a water-related disease</li>
+</ul>
+
+=======
 <ul style="list-style-type:circle;"> <center>
 	<li> - Over 2 billion people live in countries experiencing high water stress </li>
   	<li> - 700 million people worldwide could be displaced by intense water scarcity by 2030</li>
@@ -170,6 +186,7 @@ function showSlides() {
   	<li> - Every 2 minutes a child dies from a water-related disease</li>
 </ul> </center>
 <br>
+>>>>>>> 638ddc1f183a0775d8be54c6a38833ebca60fbd4
 	<a name="Water Scarcity Around The World"></a>
 <h1> <center> Water Scarcity Around The World</h1> </center>
 <div style="text-align:center">
@@ -195,7 +212,7 @@ function showSlides() {
   width: 33.33%;
   padding:5px;
   margin-bottom: 5px;
-}  
+}
 
 .row::after{
   content: "";
@@ -204,21 +221,21 @@ function showSlides() {
 }
 </style>
 
-<div class="row"> 
+<div class="row">
   <br>
     <div class="column">
       <center>
       <a href="https://www.fh.org/catalog/water/?source=WZZZN2ZZZB&utm_source=google&utm_medium=cpc&utm_content=WZZZN2ZZZB&gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0IcEPGmg3_Z1WEz4P70BBTxIu-mFfYjH3FxoJqswfFSCDSnmEmMtR4aAoM5EALw_wcB/">
         <img src="clean water.png" alt="Food For the Hungry" style="width:150px;height:150px;border:0;">
-      </a> 
+      </a>
       </center>
     </div>
- 
+
     <div class="column">
       <center>
       <a href="https://water.org/?gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0JwLa3hI1xlutzZKsvKBNoO8cPawnj59yFiNAPJkefG0NVlee6AwSkaAgtrEALw_wcB">
         <img src="safe water.jpg" alt="Water" style="width:150px;height:150px;border:0;">
-      </a> 
+      </a>
       </center>
     </div>
 
@@ -226,27 +243,27 @@ function showSlides() {
       <center>
       <a href="https://lifewater.org/blog/water-poverty/">
         <img src="life water.png" alt="Life Water" style="width:150px;height:150px;border:0;">
-      </a> 
+      </a>
       </center>
     </div>
 
- 
+
     <div class="column">
       <center>
       <a href="https://support.savethechildren.org/site/Ecommerce?store_id=1241&FOLDER=1054&SORT_ORDER=name&cid=Paid_Search:Google_Paid:Gift_Catalog_Acq:Nonbrand:032918&c=donate+for+water&&s_kwcid=AL!9048!3!261022096955!e!!s!!donate%20for%20water&gclid=EAIaIQobChMI_7ebzf7c4wIVn__jBx07bQi2EAAYBCAAEgJp2vD_BwE&gclsrc=aw.ds">
         <img src="gift of water.jpg" alt="Gift of Water" style="width:150px;height:150px;border:0;">
       </a>
-      </center> 
+      </center>
     </div>
-  
+
     <div class="column">
       <center>
       <a href="https://thewaterproject.org/">
         <img src="the water project.png" alt="Water Project" style="width:150px;height:150px;border:0;">
       </a>
-      </center> 
+      </center>
     </div>
- 
+
     <div class="column">
       <center>
       <a href="https://www.unicefusa.org/mission/survival/water">
@@ -255,7 +272,11 @@ function showSlides() {
       </center>
     </div>
 </div>
+<<<<<<< HEAD
+
+=======
 <br>
+>>>>>>> 638ddc1f183a0775d8be54c6a38833ebca60fbd4
 	<a name="Tips to Prevent Water Scarcity"></a>
 	<ul class="c">
 <h1> <center> Tips to Prevent Water Scarcity </h1> </center>
@@ -271,7 +292,11 @@ function showSlides() {
      <li> <strong> Developing Water Filtration Systems </strong> - Companies are installing filtration systems to purify the water. LifeStraw is a water bottle that filters out dirty water, so even if there is no clean water around, people are able to still drink water, thanks to the filtration system. </li>
 	<br>
 
+<<<<<<< HEAD
+</ul>
+=======
 </ul> </center>
+>>>>>>> 638ddc1f183a0775d8be54c6a38833ebca60fbd4
 
 	<a name="About Us"></a>
 <h1> <center> About Us</h1> </center>
@@ -308,14 +333,21 @@ function showSlides() {
     </div>
   </div>
 
-<br>	  
-	<a name="Sources"></a>  
+<<<<<<< HEAD
+
+
+	<a name="Sources"></a>
+ <br> <h1>Sources:</h1>
+=======
+<br>
+	<a name="Sources"></a>
  <br> <h1> <center> Sources</h1> </center>
+>>>>>>> 638ddc1f183a0775d8be54c6a38833ebca60fbd4
 	<p><a href=" https://water.org/our-impact/water-crisis/ "> https://water.org/our-impact/water-crisis/ </a></p>
-	<p><a href="https://thewaterproject.org/water-scarcity/water_stats">https://thewaterproject.org/water-scarcity/water_stats</a></p>  
-	<p><a href="https://www.unwater.org/water-facts/scarcity/ ">https://www.unwater.org/water-facts/scarcity/ </a></p>  
+	<p><a href="https://thewaterproject.org/water-scarcity/water_stats">https://thewaterproject.org/water-scarcity/water_stats</a></p>
+	<p><a href="https://www.unwater.org/water-facts/scarcity/ ">https://www.unwater.org/water-facts/scarcity/ </a></p>
 	<p><a href="https://wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=30.00&lng=-80.00&mapMode=view&month=1&opacity">https://wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=30.00&lng=-80.00&mapMode=view&month=1&opacity</a></p>
-	    
+
 
 </body>
 </html>
