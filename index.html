@@ -1,18 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
   <style>
       body {
         font-family: 'Dosis', sans-serif;
-        font-size: 25px;
+        font-size: 27px;
         color: black;
       }
-h1 {
-text-shadow: 2px 2px 8px #6495ED;
+h1, h2{
+text-shadow: 2px 2px 8px #3CB371;
 }
-   
-    </style>
+       html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+      body {
+        font-family: 'Dosis', sans-serif;
+        font-size: 30px;
+        color: black;
+	background-image: url("blue.png");
+      }
+	</style>
   </head>
 	<title>Water The World</title>
 	<link rel="stylesheet" href="water.css">
@@ -21,12 +82,14 @@ text-shadow: 2px 2px 8px #6495ED;
 	
 <body class="hero">
 <IMG SRC="logo_final.png" ALT="some text" WIDTH=356 HEIGHT=200 class="center">
+	<h1> <center> Water The World </h1> </center>
 <ul class="a">
-  <li class="b"><a class="active" href="#Home">Home</a></li>
+  <div class="a"><li class="b"><a class="active" href="#Home">Home</a></li>
 	<li class="b"><a href="#Fast Facts">Fast Facts</a></li>
 	<li class="b"><a href="#Water Scarcity Around The World">Water Scarcity Around The World</a></li>
-	 <li class="b"><a href="#Game">Game</a></li>
-	<li class="b"><a href="#How You Can Help">How You Can Help</a></li>
+	 <li class="b"><a href="#Game">Game</a></li></div>
+	<li class="b"><a href="#How You Can Help">How You Can Help</a></li></div>
+	<li class="b"><a href="#Tips to Prevent Water Scarcity">Tips to Prevent Water Scarcity</a></li>
 	<li class="b"><a href="#About Us">About Us</a></li>
 	<li class="b"><a href="#Sources">Sources</a></li>
 </ul>
@@ -99,8 +162,8 @@ function showSlides() {
 }
 </script>
 
-
 <ul class="c">
+<ul style="list-style-type:circle;">
 	<li>Over 2 billion people live in countries experiencing high water stress </li>
   	<li>700 million people worldwide could be displaced by intense water scarcity by 2030</li>
   	<li>By investing in clean water alone, young children around the world can gain more than 413 million days of health</li>
@@ -109,6 +172,7 @@ function showSlides() {
 
 	<a name="Water Scarcity Around The World"></a>
 <h1>Water Scarcity Around The World:</h1>
+<style="text-align:center">
 <iframe src="https://www.wri.org/applications/maps/aqueduct-atlas/#x=8.00&y=0.40&s=ws!20!28!c&t=waterrisk&w=def&g=0&i=BWS-16!WSV-4!SV-2!HFO-4!DRO-4!STOR-8!GW-8!WRI-4!ECOS-2!MC-4!WCG-8!ECOV-2!&tr=ind-1!prj-1&l=3&b=terrain&m=group" width="1000" height="800"> <!-- Aqueduct Water Risk Atlas -->
 </iframe>
 
@@ -123,6 +187,7 @@ function showSlides() {
 <h1>How You Can Help:</h1>
 
 <p2>You can donate by clicking here!!!</p2>
+<<<<<<< HEAD
 <div class="row">
     <br> <div class="column"> <a href="https://www.fh.org/catalog/water/?source=WZZZN2ZZZB&utm_source=google&utm_medium=cpc&utm_content=WZZZN2ZZZB&gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0IcEPGmg3_Z1WEz4P70BBTxIu-mFfYjH3FxoJqswfFSCDSnmEmMtR4aAoM5EALw_wcB/">
     <img src="clean water.png" alt="Food For the Hungry" style="width:100px;height:100px;border:0;">
@@ -143,11 +208,94 @@ function showSlides() {
 </a> </div>
 </div>
 
+=======
+    <br> <div> <a href="https://www.fh.org/catalog/water/?source=WZZZN2ZZZB&utm_source=google&utm_medium=cpc&utm_content=WZZZN2ZZZB&gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0IcEPGmg3_Z1WEz4P70BBTxIu-mFfYjH3FxoJqswfFSCDSnmEmMtR4aAoM5EALw_wcB/">
+  <img src="clean water.png" alt="Food For the Hungry" style="width:150px;height:150px;border:0;">
+</a> </div> 
+<br> <div> <a href="https://water.org/?gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0JwLa3hI1xlutzZKsvKBNoO8cPawnj59yFiNAPJkefG0NVlee6AwSkaAgtrEALw_wcB">
+  <img src="safe water.jpg" alt="Water" style="width:150px;height:150px;border:0;">
+</a> </div> 
+<br> <div> <a href="https://lifewater.org/blog/water-poverty/">
+  <img src="life water.png" alt="Life Water" style="width:150px;height:150px;border:0;">
+</a> </div>
+<br> <div> <a href="https://support.savethechildren.org/site/Ecommerce?store_id=1241&FOLDER=1054&SORT_ORDER=name&cid=Paid_Search:Google_Paid:Gift_Catalog_Acq:Nonbrand:032918&c=donate+for+water&&s_kwcid=AL!9048!3!261022096955!e!!s!!donate%20for%20water&gclid=EAIaIQobChMI_7ebzf7c4wIVn__jBx07bQi2EAAYBCAAEgJp2vD_BwE&gclsrc=aw.ds">
+  <img src="gift of water.jpg" alt="Gift of Water" style="width:150px;height:150px;border:0;">
+</a> </div>
+<br> <div> <a href="https://thewaterproject.org/">
+  <img src="the water project.png" alt="Water Project" style="width:150px;height:150px;border:0;">
+</a> </div>
+<br> <div> <a href="https://www.unicefusa.org/mission/survival/water">
+  <img src="unicef.png" alt="Unicef USA" style="width:150px;height:150px;border:0;">
+</a> </div>
+	
+	<a name="Tips to Prevent Water Scarcity"></a>
+	<ul class="c">
+<h1> Tips to Prevent Water Scarcity: </h1>
+<ul style="list-style-type:circle;">
+    <li> <strong> Collect Rainwater </strong> -  Harvesting rainwater is a way to get water without having to rely on groundwater. </li>
+	<br>
+     <li> <strong> Develop Efficient Desalination Plants </strong> - Converting seawater into freshwater is a possibility, but desalination uses up a lot of energy. Research into this field could benefit us in the future as the population grows and water resources are limited. </li>
+	<br>
+     <li> <strong> Addressing Climate Change </strong> - By addressing pollution and the increase of greenhouse gases, we can control the high temperatures that cause droughts. </li>
+	<br>
+    <li> <strong> Practicing Water Conservation </strong> - If all 7 billion of us took shorter showers, installed water saving shower heads and toilets, and always used full loads in the washing machine and dishwasher, we'll use our limited water supply responsibly. Only 3% of the water on Earth is fresh water, and only 0.5% of that is drinking water. </li>
+	<br>
+     <li> <strong> Developing Water Filtration Systems </strong> - Companies are installing filtration systems to purify the water. LifeStraw is a water bottle that filters out dirty water, so even if there is no clean water around, people are able to still drink water, thanks to the filtration system. </li>
+	<br>
+
+</ul> 
+>>>>>>> 411a6985e94060a638b3bd2565e56cc43eaf2f6d
 
 	<a name="About Us"></a>
 <h1>About Us:</h1>
+
+	<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="IMG_2387.JPG" alt="Sahithi" width="400" height="400">
+      <div class="container">
+        <h2>Sahithi Tummala</h2>
+        <p class="title"> Girls Who Code member at CNA, Chicago</p>
+        <p>I am going to be a senior at Metea Valley High School. I was deeply affected by the water scarcity crisis that is happening in Chennai, India, and I wanted to create a website in order to raise awareness on this topic. Thanks to this program, we were able to use HTML and CSS to make this website. When I'm not coding, you can catch me playing my violin or reading a book!  </p>
+        <p> Contact me at: sahithi_tummala@yahoo.com </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="IMG_8290.JPG" alt="Riya" width="400" height="400">
+      <div class="container">
+        <h2>Riya Shah</h2>
+        <p class="title">Girls Who Code member at CNA, Chicago</p>
+        <p>I am going to be a senior at Metea Valley High School. I am passionate about helping people in need, especially in India. Through Girls Who Code, my group and I have been able to create this website in order to raise awareness about global water scarcity. When I am not coding, you can find me on my phone or obsessing about all things DECA and Bollywood!</p>
+        <p> Contact me at: riya_shah01@icloud.com</p>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="column">
+    <div class="card">
+      <img src="IMG_5909 (1).jpeg" alt="Makalia" width="400" height="400">
+      <div class="container">
+        <h2>Makalia Washington</h2>
+        <p class="title">Girls Who Code member at CNA, Chicago</p>
+        <p>I am going to be a junior at Murrah High School. Through Girls Who Code, my group and I have created an website to raise awareness about global water scarcity. We can use this website to do more than help people! I want to get others engaged and finding a solution to the problem. When I am not coding, you can find me watching animals documentaries.</p>
+        <p> Contact me at: makaliawashington2@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+		
 		  
 	<a name="Sources"></a>  
- <h1>Sources:</h1>
+ <br> <h1>Sources:</h1>
+	<p><a href=" https://water.org/our-impact/water-crisis/ "> https://water.org/our-impact/water-crisis/ </a></p>
+	<p><a href="https://thewaterproject.org/water-scarcity/water_stats">https://thewaterproject.org/water-scarcity/water_stats</a></p>  
+	<p><a href="https://www.unwater.org/water-facts/scarcity/ ">https://www.unwater.org/water-facts/scarcity/ </a></p>  
+	<p><a href="https://wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=30.00&lng=-80.00&mapMode=view&month=1&opacity">https://wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=30.00&lng=-80.00&mapMode=view&month=1&opacity</a></p>
+	    
+
 </body>
 </html>
