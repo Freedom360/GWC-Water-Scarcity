@@ -1,4 +1,25 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  padding: 14px;
+  font-size: 25px;
+}
+</style>
+</head>
 
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
 * {box-sizing: border-box;margin:0; padding:0;}
 body {font-family: 'Dosis', sans-serif; width:100%; height:100%;}
 
@@ -107,7 +128,7 @@ ul.c {font-family: 'Dosis', sans-serif;
   position: relative;
 }
 
-<<<<<<< HEAD
+
 .hero::before {font-family: 'Dosis', sans-serif;
 background-image: url("blue.png");
 =======
