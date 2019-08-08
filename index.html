@@ -94,7 +94,42 @@
   	<li class="b"><a href="#Tips to Prevent Water Scarcity">Tips to Prevent Water Scarcity</a></li>
   	<li class="b"><a href="#About Us">About Us</a></li>
   	<li class="b"><a href="#Sources">Sources</a></li>
-  </ul>
+    <li class="b"><a style=color:red; ><b>A child dies every 2 minutes:</b><span id="Timer"></span>   
+      <style>
+        #clock  {text-align:center;
+          font: 19px/1.5 Monospace; color:red; padding:10px 20px; width:2em;'
+          }
+
+      </style>
+      </a></li>
+      <script type="text/javascript" language="Javascript">
+        var target= new Date(); // must be global
+        function Timer(){
+          var Countdown = new Date();
+          delta= parseInt((target.getTime()- Countdown.getTime()) /1000);
+          document.getElementsByName('clock')[0].innerHTML = delta;
+          setTimeout ("Timer()",1000);
+              if(delta == 0){
+              Init();
+              }         
+        }
+        function Init(){
+          //var target = new Date();
+          target.setTime(target.getTime() + 2*60*1000); // 2 minutes in microseconds
+          document.getElementsByName('target')[0].innerHTML = target.toLocaleString();
+        }
+        
+      </script>
+      <body onload="Init();">
+        
+      <div id="clock" name="clock" >
+        This is where the count will be displayed
+      </div>
+      <script type="text/Javascript">
+        Timer();    
+      </script>
+  </head>
+
 
 </div>
 </div>
